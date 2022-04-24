@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+  	int Number, i;
+  
+  	printf("\n Please Enter the Number of Tickets that you want to Print  : ");
+  	scanf("%d", &Number);
+  	
+  	printf("\n The Total Number of Tickets that you wanted to print are %d Tickets \n", Number);  	
+	for(i = 1; i <= Number; i++)
+  	{
+    	printf(" Ticket Number : %d\n", i);
+  	}
+  
+  	return 0;
+}
